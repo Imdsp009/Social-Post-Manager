@@ -1,16 +1,24 @@
-# Social-Post-Manager
+# Social Post Manager
 
-This is a simple web application that allows users to create, edit, like/unlike, and view posts. The app is built using Node.js, Express, MongoDB, and TailwindCSS for styling. The app provides users with a sleek, modern dashboard where they can manage their posts and interact with content.
+A social media platform for users to create posts, like/unlike posts, and edit their content. This web application is built with **Node.js**, **Express**, **MongoDB**, and **Tailwind CSS**.
 
-Features
-User Authentication: Users can log in and out.
-Post Creation: Users can create new posts and share them with others.
-Post Editing: Users can edit their posts.
-Like/Unlike Functionality: Users can like or unlike posts.
-Responsive Design: The app is fully responsive and works seamlessly on desktop and mobile devices.
-Modern UI: The UI is styled using TailwindCSS for a clean, modern look.
-Tech Stack
-Backend: Node.js, Express.js
-Database: MongoDB
-Styling: TailwindCSS
-Authentication: Custom authentication (user login and session management)
+## Features
+
+- **User Authentication:** Users can sign up, log in, and log out.
+- **Create Post:** Users can create new posts.
+- **Like/Unlike Posts:** Users can like and unlike posts.
+- **Edit Posts:** Users can edit the posts they have created.
+- **Responsive UI:** The UI is responsive, built using Tailwind CSS for a modern, clean, and adaptive design.
+
+## Tech Stack
+
+- **Frontend:** 
+  - HTML, CSS (Tailwind CSS)
+  - EJS (Embedded JavaScript) for templating
+- **Backend:** 
+  - Node.js with Express.js
+  - MongoDB for database storage
+- **Authentication:** 
+  - Passport.js (for managing user sessions)
+- **Deployment:** 
+  - You can deploy this app using services like **Heroku**, **Vercel**, or **Netlify**.
