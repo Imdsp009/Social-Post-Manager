@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Login Your Account</title>
+</head>
+<body class="bg-gradient-to-r from-blue-800 via-indigo-900 to-purple-900 min-h-screen text-white flex items-center justify-center">
+  <div class="w-full max-w-md bg-opacity-80 bg-black p-10 rounded-xl shadow-2xl">
+    <h3 class="text-4xl font-extrabold text-center mb-6">Login to Your Account</h3>
+    <p class="text-sm text-gray-400 text-center mb-8">Welcome back! Please login to continue.</p>
+    <form action="/login" method="post" class="space-y-5">
+      <input class="w-full px-4 py-3 bg-gray-800 text-white rounded-md border border-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" type="email" name="email" placeholder="Email" required>
+      <input class="w-full px-4 py-3 bg-gray-800 text-white rounded-md border border-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" type="password" name="password" placeholder="Password" required>
+      <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-md font-semibold transition-all duration-300">Login</button>
+    </form>
+    <p class="mt-5 text-sm text-center text-gray-400">
+      Don't have an account? <a href="/" class="text-blue-300 hover:underline">Create one here</a>
+    </p>
+  </div>
+</body>
+</html>

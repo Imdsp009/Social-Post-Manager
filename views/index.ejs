@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Create Account</title>
+</head>
+<body class="bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 min-h-screen text-white flex items-center justify-center">
+  <div class="w-full max-w-md bg-opacity-80 bg-black p-10 rounded-xl shadow-2xl">
+    <h3 class="text-4xl font-extrabold text-center mb-6">Create an Account</h3>
+    <p class="text-sm text-gray-400 text-center mb-8">Fill the details below to get started!</p>
+    <form action="/register" method="post" class="space-y-5">
+      <input class="w-full px-4 py-3 bg-gray-800 text-white rounded-md border border-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500" type="text" name="name" placeholder="Full Name" required>
+      <input class="w-full px-4 py-3 bg-gray-800 text-white rounded-md border border-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500" type="text" name="username" placeholder="Username" required>
+      <input class="w-full px-4 py-3 bg-gray-800 text-white rounded-md border border-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500" type="password" name="password" placeholder="Password" required>
+      <input class="w-full px-4 py-3 bg-gray-800 text-white rounded-md border border-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500" type="number" name="age" placeholder="Age" required>
+      <input class="w-full px-4 py-3 bg-gray-800 text-white rounded-md border border-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500" type="email" name="email" placeholder="Email" required>
+      <button class="w-full bg-pink-600 hover:bg-pink-700 text-white py-3 rounded-md font-semibold transition-all duration-300">Create Account</button>
+    </form>
+    <p class="mt-5 text-sm text-center text-gray-400">
+      Already have an account? <a href="/login" class="text-pink-300 hover:underline">Login here</a>
+    </p>
+  </div>
+</body>
+</html>
